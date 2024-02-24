@@ -1,9 +1,12 @@
 # Nonogram solver
 ## Project description
-Terminal-based automatic nonogram solver. Takes hints (numbers) from nonogram board as input and applies logic to solve puzzle.
+Terminal-based automatic nonogram solver. Takes numbers (hints) from nonogram board as input and applies logic to solve puzzle.
+
+A nonogram is a puzzle in which there is a hidden image in a rectangular grid that is revealed when the puzzle is completed. Each row and column is neighbored by a series of numbers indicating lengths of the continuous sequences of colored/painted squares that must appear in that line. Each sequence must be satisfied and separated by at least one unmarked square.
 
 ## How to run
 `python nonogram_solver.py`
+
 The program will ask the following two queries:
 ```
 Enter row values, rows separated by commas
